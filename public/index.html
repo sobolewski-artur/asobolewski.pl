@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <style>
+    section {
+      height: calc(100vh - 48px)
+    }
+  </style>
+</head>
+
+<body data-theme=dark class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-200">
+  <header class="flex justify-center sticky top-0 bg-gray-300 dark:bg-gray-800">
+    <nav class="w-8/12 flex justify-between items-center">
+      <div>
+        <span class="text-3xl">Sobolewski</span>
+      </div>
+      <div>
+        <button class="p-3 cursor-pointer rounded-full" type="button" onclick="setDark()">
+          <span id="moon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+            </svg>
+          </span>
+          <span id="sun">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <circle cx="12" cy="12" r="4" />
+                <path
+                  d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <script>
+        let isDark = true
+        const moon = document.getElementById('moon')
+        const sun = document.getElementById('sun')
+
+        sun.className = 'hidden'
+        function setDark() {
+          const body = document.querySelector('body')
+          if (isDark) {
+            body.removeAttribute('data-theme')
+            moon.className = 'hidden'
+            sun.className = ''
+            isDark = false
+          } else {
+            body.setAttribute('data-theme', 'dark')
+            moon.className = ''
+            sun.className = 'hidden'
+            isDark = true
+          }
+        }
+      </script>
+    </nav>
+  </header>
+  <main class="flex justify-center">
+    <div class="flex flex-col sm:w-8/12 lg:w-1/2">
+      <section class="flex mx-2 flex-col gap-4 justify-center items-center text-center">
+        <img class="border-8 max-h-96 rounded-4xl shadow-2xl" src="./ja_luk.jpg"/>
+        <div class="flex flex-col gap-4">
+          <h1 class="text-2xl font-bold lg:text-4xl">Twoja wizja, mój kod</h1>
+          <p>Buduje nowoczesne, szybkie i responsywne serwisy internetowe skrojone pod potrzeby Twojego biznesu. Od prostych wizytówek po zaawansowane aplikacje webowe.</p>
+        </div>
+      </section>
+      <section class="flex mx-2 flex-col xl:flex-row gap-4 justify-center items-center">
+        <!-- <img width="400px" class="border-8 rounded-4xl shadow-2xl" src="./ja_luk.jpg"/> -->
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-bold lg:text-3xl">Dlaczego warto postawić na profesjonalne programowanie?</h2>
+          <p>W dobie cyfrowej dominacji sama obecność w sieci to za mało. Twoja strona musi być narzędziem, które konwertuje odwiedzających w klientów. Oferuje:</p>
+          <ul class="list-disc">
+            <li><b>Pełna Responsywność (RWD):</b> Twoja strona będzie wyglądać i działać idealnie na każdym urządzeniu – od smartfona po duży monitor.</li>
+            <li><b>Optymalizacja Szybkości:</b> Dbam o czysty kod, dzięki czemu witryna ładuje się błyskawicznie, co docenią użytkownicy i algorytmy Google.</li>
+            <li><b>Wsparcie SEO:</b> Projektuje strukturę strony tak, aby ułatwić jej późniejsze pozycjonowanie w wyszukiwarkach.</li>
+            <li><b>Indywidualne Rozwiązania:</b> Nie ograniczam się do szablonów. Tworzę dedykowane funkcjonalności oparte o nowoczesny JavaScript, HTML i CSS.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="flex mx-2 flex-col gap-4 justify-center items-center">
+        <img class="border-8 max-h-96 rounded-4xl shadow-2xl" src="./code.jpg"/>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-bold lg:text-3xl">Moje Usługi</h2>
+          <ul class="list-disc">
+            <li><b>Strony firmowe i landing page</b> - skuteczne wizytówki Twojej marki.</li>
+            <li><b>Sklepy internetowe (E-commerce)</b> - stabilne platformy sprzedażowe.</li>
+            <li><b>Aplikacje webowe</b> - dedykowane narzędzia do automatyzacji procesów w Twojej firmie.</li>
+            <li><b>Opieka techniczna i administracja</b> - żebyś mógł skupić się na biznesie, podczas gdy my dbamy o kod.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="flex mx-2 flex-col xl:flex-row gap-4 justify-center items-center text-center">
+        <img class="border-8 rounded-4xl w-60 xl:w-96 shadow-2xl" src="./my-picture.jpg"/>
+        <div class="flex flex-col gap-4">
+          <h1 class="text-2xl font-bold lg:text-4xl">O mnie</h1>
+          <p>Jestem pasjonatą programowania, dla którego web development to proces tworzenia od projektu po wdrożenie. Wierzę, że dobra strona to połączenie estetycznego UI (User Interface) z bezbłędnym UX (User Experience).</p>
+        </div>
+      </section>
+      <section class="flex mx-2 flex-col xl:flex-row gap-4 justify-center items-center">
+        <!-- <img width="400px" class="border-8 rounded-4xl shadow-2xl" src="./ja_luk.jpg"/> -->
+        <div class="flex flex-col gap-4">
+          <h2 class="text-2xl font-bold lg:text-3xl">Dodatkowe narzędzia, które mogą Ci się przydać:</h2>
+          <ul class="list-disc">
+            <li><a class="underline text-sky-600" href="https://pagespeed.web.dev/"><b>PageSpeed Insights</b></a> - sprawdź aktualną szybkość swojej strony (lub strony konkurencji).</li>
+            <li><a class="underline text-sky-600" href="https://github.com/"><b>GitHub</b></a> - najlepsze miejsce do hostowania Twojego kodu i pokazywania portfolio technicznego.</li>
+            <li><a class="underline text-sky-600" href="https://squoosh.app/"><b>Squoosh</b></a> - dedykowane narzędzia do automatyzacji procesów w Twojej firmie.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="flex flex-col items-center">
+    <div data-orientation="horizontal" role="separator" data-slot="root" class="flex items-center align-center text-center w-full flex-row">
+      <div data-slot="border" class="border-default w-full border-solid border-t"></div>
+      <div data-slot="container" class="font-medium text-default flex mx-3 whitespace-nowrap"><span data-slot="label", class="text-sm">Sobolewski</span></div>
+      <div data-slot="border" class="border-default w-full border-solid border-t"></div>
+    </div>
+    <div>
+      <span>Website was build in • © 2026</span>
+    </div>
+  </footer>
+</body>
+
+</html>
