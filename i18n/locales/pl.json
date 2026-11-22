@@ -1,0 +1,7 @@
+{
+  "home": {
+    "title": "Witaj na asobolewski.pl",
+    "subtitle": "Strona zbudowana w Nuxt, z Tailwind CSS i wsparciem wielu języków."
+  },
+  "language": "Język"
+}
