@@ -25,7 +25,7 @@ const { t } = useI18n()
             rel="noopener"
             class="inline-flex items-center gap-2 rounded-lg border border-white/20 px-5 py-3 font-semibold transition-colors hover:bg-white/10"
           >
-            <AppIcon name="briefcase" />
+            <UsemeIcon />
             {{ t('cta.useme') }}
           </a>
         </div>

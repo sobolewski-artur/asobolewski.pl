@@ -30,7 +30,7 @@ const year = new Date().getFullYear()
         </li>
         <li>
           <a :href="site.useme" target="_blank" rel="noopener" class="grid size-10 place-items-center rounded-lg text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white" aria-label="Useme" title="Useme">
-            <AppIcon name="briefcase" />
+            <UsemeIcon />
           </a>
         </li>
       </ul>
