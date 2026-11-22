@@ -1,6 +1,10 @@
 <script setup lang="ts">
 // Sets <html lang>, dir and alternate/hreflang links for the current locale
 const head = useLocaleHead()
+
+useHead({
+  titleTemplate: (title) => (title ? `${title} · Artur Sobolewski` : 'Artur Sobolewski'),
+})
 </script>
 
 <template>
@@ -15,7 +19,9 @@ const head = useLocaleHead()
     </Head>
     <Body>
       <NuxtRouteAnnouncer />
-      <NuxtPage />
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
     </Body>
   </Html>
 </template>

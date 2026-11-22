@@ -1,7 +1,144 @@
 {
-  "home": {
-    "title": "Welcome to asobolewski.pl",
-    "subtitle": "A site built with Nuxt, Tailwind CSS and multi-language support."
+  "language": "Language",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "main": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content"
   },
-  "language": "Language"
+  "common": {
+    "viewWork": "View my work",
+    "contact": "Get in touch",
+    "moreAbout": "More about me",
+    "seeAll": "See all projects",
+    "live": "Live site",
+    "code": "Source code"
+  },
+  "home": {
+    "metaTitle": "Full Stack Web Developer",
+    "metaDescription": "Artur Sobolewski — full stack web developer with about 5 years of experience. I build fast, reliable websites, web applications and APIs with Vue, Nuxt, Rust and Go.",
+    "available": "Available for new projects",
+    "greeting": "Hi, I'm",
+    "headline": "I build fast, reliable web applications — from the database to the interface.",
+    "intro": "I design and develop websites, applications and APIs that are pleasant to use, easy to maintain and ready to grow with your business.",
+    "portraitAlt": "Portrait of Artur Sobolewski",
+    "stats": {
+      "years": "years of experience",
+      "ai": "AI-assisted development with"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "What I do",
+      "subtitle": "End-to-end web development — one person responsible for the whole product.",
+      "frontend": {
+        "title": "Frontend",
+        "text": "Responsive, accessible interfaces in Vue, Nuxt and Tailwind CSS — fast to load, SEO-friendly and comfortable on every device."
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "Fast, reliable APIs and services in Rust and Go, built with security and performance in mind."
+      },
+      "data": {
+        "title": "Databases & cloud",
+        "text": "Data modelling in PostgreSQL and SurrealDB, and real-time apps on Firebase — with authentication, file storage and hosting."
+      }
+    },
+    "stackTitle": "Technologies I work with",
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Selected work",
+      "subtitle": "A few projects I have built recently."
+    },
+    "aboutTeaser": {
+      "title": "A developer with a steady hand",
+      "text": "I care about clean code, clear communication and details that make a difference. Away from the keyboard, I practise archery."
+    }
+  },
+  "about": {
+    "metaTitle": "About me",
+    "metaDescription": "Learn more about Artur Sobolewski — full stack web developer: skills, technologies and the way I work.",
+    "eyebrow": "About me",
+    "title": "A developer who cares about the whole product",
+    "bio1": "I'm Artur, a full stack web developer with about 5 years of experience. I enjoy working across the entire stack — from modelling data and designing APIs to polishing the last details of the user interface.",
+    "bio2": "I believe good software is simple to use and simple to change. That is why I focus on clean, typed code, sensible architecture and automated testing and deployment.",
+    "bioAi": "In my day-to-day work I use Claude Code, an AI coding assistant. It handles repetitive tasks and speeds up prototyping, so I can spend more time on architecture and product details — and every change still goes through my review.",
+    "bio3": "I work with companies and individuals on websites, web applications and internal tools, and I am happy to take a project from the first idea all the way to production.",
+    "facts": {
+      "experience": { "label": "Experience", "value": "About 5 years" },
+      "location": { "label": "Location", "value": "Poland" },
+      "focus": { "label": "Focus", "value": "Full stack web apps" },
+      "languages": { "label": "Languages", "value": "Polish, English" },
+      "workMode": { "label": "Work mode", "value": "Remote or hybrid" }
+    },
+    "skills": {
+      "eyebrow": "Skills",
+      "title": "My toolbox",
+      "subtitle": "Technologies I use every day to build and ship web products.",
+      "groups": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "databases": "Databases",
+        "ai": "AI tools"
+      }
+    },
+    "process": {
+      "eyebrow": "Process",
+      "title": "How I work",
+      "subtitle": "A simple, transparent process — you always know what is happening and what comes next.",
+      "steps": {
+        "discover": {
+          "title": "Discover",
+          "text": "We talk about your goals, users and constraints, so we build the right thing."
+        },
+        "plan": {
+          "title": "Plan",
+          "text": "I propose the architecture, scope and timeline, broken into clear milestones."
+        },
+        "build": {
+          "title": "Build",
+          "text": "I develop iteratively and share progress regularly, so you can give feedback early."
+        },
+        "launch": {
+          "title": "Launch & support",
+          "text": "I deploy, monitor and keep improving the project after it goes live."
+        }
+      }
+    },
+    "hobby": {
+      "eyebrow": "Beyond code",
+      "title": "Patience, focus, precision",
+      "text": "When I'm away from the keyboard, you'll often find me at the archery range with a compound bow. Archery and programming have more in common than it seems — both reward patience, consistency and attention to the smallest details.",
+      "alt": "Artur Sobolewski drawing a compound bow at an outdoor archery range"
+    }
+  },
+  "portfolio": {
+    "metaTitle": "Portfolio",
+    "metaDescription": "Selected projects by Artur Sobolewski — web applications, websites, online stores and APIs.",
+    "eyebrow": "Portfolio",
+    "title": "Projects I've built",
+    "lead": "A selection of websites, web applications and APIs — each built end to end, from the backend to the user interface.",
+    "filterLabel": "Filter projects by category",
+    "all": "All",
+    "categories": {
+      "webapp": "Web apps",
+      "website": "Websites",
+      "ecommerce": "E-commerce",
+      "api": "APIs"
+    },
+    "stack": "Technologies used",
+    "empty": "No projects in this category yet."
+  },
+  "cta": {
+    "title": "Have a project in mind?",
+    "text": "Tell me what you're working on and let's see how I can help.",
+    "button": "Write to me",
+    "useme": "Hire me on Useme"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "nav": "Footer navigation"
+  }
 }

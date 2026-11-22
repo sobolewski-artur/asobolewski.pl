@@ -1,7 +1,144 @@
 {
-  "home": {
-    "title": "Witaj na asobolewski.pl",
-    "subtitle": "Strona zbudowana w Nuxt, z Tailwind CSS i wsparciem wielu języków."
+  "language": "Język",
+  "nav": {
+    "home": "Start",
+    "about": "O mnie",
+    "portfolio": "Portfolio",
+    "main": "Nawigacja główna",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "skip": "Przejdź do treści"
   },
-  "language": "Język"
+  "common": {
+    "viewWork": "Zobacz portfolio",
+    "contact": "Napisz do mnie",
+    "moreAbout": "Więcej o mnie",
+    "seeAll": "Wszystkie projekty",
+    "live": "Zobacz stronę",
+    "code": "Kod źródłowy"
+  },
+  "home": {
+    "metaTitle": "Full Stack Web Developer",
+    "metaDescription": "Artur Sobolewski — full stack web developer z około 5-letnim doświadczeniem. Tworzę szybkie i niezawodne strony, aplikacje webowe i API w Vue, Nuxt, Rust i Go.",
+    "available": "Dostępny do nowych projektów",
+    "greeting": "Cześć, jestem",
+    "headline": "Tworzę szybkie i niezawodne aplikacje webowe — od bazy danych po interfejs.",
+    "intro": "Projektuję i buduję strony, aplikacje i API, które są wygodne w użyciu, łatwe w utrzymaniu i gotowe, by rosnąć razem z Twoją firmą.",
+    "portraitAlt": "Portret Artura Sobolewskiego",
+    "stats": {
+      "years": "lat doświadczenia",
+      "ai": "Programowanie wspierane AI z"
+    },
+    "services": {
+      "eyebrow": "Usługi",
+      "title": "Czym się zajmuję",
+      "subtitle": "Kompleksowe tworzenie aplikacji webowych — jedna osoba odpowiedzialna za cały produkt.",
+      "frontend": {
+        "title": "Frontend",
+        "text": "Responsywne i dostępne interfejsy w Vue, Nuxt i Tailwind CSS — szybkie, przyjazne dla SEO i wygodne na każdym urządzeniu."
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "Szybkie i niezawodne API oraz usługi w Rust i Go — z myślą o bezpieczeństwie i wydajności."
+      },
+      "data": {
+        "title": "Bazy danych i chmura",
+        "text": "Modelowanie danych w PostgreSQL i SurrealDB oraz aplikacje czasu rzeczywistego na Firebase — z uwierzytelnianiem, przechowywaniem plików i hostingiem."
+      }
+    },
+    "stackTitle": "Technologie, z którymi pracuję",
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Wybrane projekty",
+      "subtitle": "Kilka projektów, które ostatnio zrealizowałem."
+    },
+    "aboutTeaser": {
+      "title": "Programista z pewną ręką",
+      "text": "Stawiam na czysty kod, jasną komunikację i detale, które robią różnicę. Z dala od klawiatury trenuję łucznictwo."
+    }
+  },
+  "about": {
+    "metaTitle": "O mnie",
+    "metaDescription": "Poznaj Artura Sobolewskiego — full stack web developera: umiejętności, technologie i sposób pracy.",
+    "eyebrow": "O mnie",
+    "title": "Programista, któremu zależy na całym produkcie",
+    "bio1": "Nazywam się Artur i jestem full stack web developerem z około 5-letnim doświadczeniem. Lubię pracować na każdym poziomie aplikacji — od modelowania danych i projektowania API po dopracowanie ostatnich detali interfejsu.",
+    "bio2": "Uważam, że dobre oprogramowanie jest proste w obsłudze i łatwe w rozwijaniu. Dlatego stawiam na czysty, typowany kod, przemyślaną architekturę oraz automatyzację testów i wdrożeń.",
+    "bioAi": "Na co dzień pracuję z Claude Code — asystentem AI do programowania. Przejmuje powtarzalne zadania i przyspiesza prototypowanie, dzięki czemu mogę poświęcić więcej czasu architekturze i detalom produktu. Każdą zmianę i tak sprawdzam osobiście.",
+    "bio3": "Współpracuję z firmami i osobami prywatnymi przy stronach, aplikacjach webowych i narzędziach wewnętrznych. Chętnie prowadzę projekt od pierwszego pomysłu aż do wdrożenia.",
+    "facts": {
+      "experience": { "label": "Doświadczenie", "value": "Około 5 lat" },
+      "location": { "label": "Lokalizacja", "value": "Polska" },
+      "focus": { "label": "Specjalizacja", "value": "Aplikacje webowe full stack" },
+      "languages": { "label": "Języki", "value": "polski, angielski" },
+      "workMode": { "label": "Współpraca", "value": "Zdalnie lub hybrydowo" }
+    },
+    "skills": {
+      "eyebrow": "Umiejętności",
+      "title": "Mój warsztat",
+      "subtitle": "Technologie, których używam na co dzień, by budować i wdrażać produkty webowe.",
+      "groups": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "databases": "Bazy danych",
+        "ai": "Narzędzia AI"
+      }
+    },
+    "process": {
+      "eyebrow": "Proces",
+      "title": "Jak pracuję",
+      "subtitle": "Prosty i przejrzysty proces — zawsze wiesz, co się dzieje i co będzie dalej.",
+      "steps": {
+        "discover": {
+          "title": "Poznanie",
+          "text": "Rozmawiamy o celach, użytkownikach i ograniczeniach, żeby zbudować właściwą rzecz."
+        },
+        "plan": {
+          "title": "Planowanie",
+          "text": "Proponuję architekturę, zakres i harmonogram podzielony na czytelne etapy."
+        },
+        "build": {
+          "title": "Realizacja",
+          "text": "Pracuję iteracyjnie i regularnie pokazuję postępy, więc możesz wcześnie zgłaszać uwagi."
+        },
+        "launch": {
+          "title": "Wdrożenie i wsparcie",
+          "text": "Wdrażam, monitoruję i dalej rozwijam projekt po jego starcie."
+        }
+      }
+    },
+    "hobby": {
+      "eyebrow": "Po godzinach",
+      "title": "Cierpliwość, skupienie, precyzja",
+      "text": "Gdy odchodzę od klawiatury, często można mnie spotkać na strzelnicy z łukiem bloczkowym. Łucznictwo i programowanie mają więcej wspólnego, niż się wydaje — w obu liczą się cierpliwość, powtarzalność i dbałość o najmniejsze detale.",
+      "alt": "Artur Sobolewski napina łuk bloczkowy na strzelnicy"
+    }
+  },
+  "portfolio": {
+    "metaTitle": "Portfolio",
+    "metaDescription": "Wybrane projekty Artura Sobolewskiego — aplikacje webowe, strony internetowe, sklepy i API.",
+    "eyebrow": "Portfolio",
+    "title": "Zrealizowane projekty",
+    "lead": "Wybór stron, aplikacji webowych i API — każdy projekt zbudowany kompleksowo, od backendu po interfejs.",
+    "filterLabel": "Filtruj projekty według kategorii",
+    "all": "Wszystkie",
+    "categories": {
+      "webapp": "Aplikacje webowe",
+      "website": "Strony WWW",
+      "ecommerce": "E-commerce",
+      "api": "API"
+    },
+    "stack": "Użyte technologie",
+    "empty": "Brak projektów w tej kategorii."
+  },
+  "cta": {
+    "title": "Masz pomysł na projekt?",
+    "text": "Opowiedz mi, nad czym pracujesz — sprawdzimy razem, jak mogę pomóc.",
+    "button": "Napisz do mnie",
+    "useme": "Zatrudnij mnie na Useme"
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "nav": "Nawigacja w stopce"
+  }
 }
